@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+body{
+  background: #888888;
+}
+header div img {
+  width: 50px;
+  float: left;
+  border-radius: 20%;
+}
+header div div img{
+  width: 20px;
+}
+header div div{
+  display: inline-block;
+  border: 3px solid black;
+  border-radius: 10px;
+  border-style: dot-dash;
+}
+
+.logot{
+  display: flex;
+  align-items: center;
+}
+
+.c, .l, .f{
+  display: flex;
+  justify-content: space-between;
+  background: rgba(34, 34, 34, 0.44);
+}
+
+h1{
+  text-align: center;
+}
+h1 span{
+  padding:2px;
+  background: rgba(231, 0, 0, 0.33);
+}
+div div div{
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+div div div div{
+  display: flex;
+  flex-direction: column;
+}
+.menuDiv {
+  background: rgba(0, 0, 0, 0.59);
+  display: inline-block;
+  color: #2e70a9;
+  float: right;
+  border-radius: 10px;
+}
+.menuDiv ul li {
+  list-style: none;
+  display: inline-block;
+}
+.menuDiv ul li img {
+  display: flex;
+  justify-content: center;
+}
+.menuDiv ul li a {
+  color: #8a64bd;
+  text-decoration: none;
+  padding: 25px 20px;
+  display: inline-block;
+  transition: ease-in-out all .3s;
+}
+.menuDiv ul li a:hover {
+  color: #fff;
+  font-size: large;
+  background: #2e70a9;
+}
+.menuDiv ul img:hover {
+  color: #fff;
+  font-size: large;
+  background: #2e70a9;
+  transition: ease-in-out all .3s;
+}
+
+footer div iframe{
+  float: right;
+}
+footer{
+  display: flex;
+  background: rgba(46, 112, 169, 0.52);
+}
+
